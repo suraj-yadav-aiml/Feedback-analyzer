@@ -1,7 +1,7 @@
 from langchain_openai import ChatOpenAI
-from config import MODEL_NAME, TEMPERATURE
-from chains import build_sentiment_chain, build_positive_chain, build_negative_chain
-from routes import create_feedback_chain
+from .config import MODEL_NAME, TEMPERATURE
+from .chains import build_sentiment_chain, build_positive_chain, build_negative_chain
+from .routes import create_feedback_chain
 
 from dotenv import load_dotenv
 load_dotenv()

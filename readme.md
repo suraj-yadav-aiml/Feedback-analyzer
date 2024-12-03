@@ -31,9 +31,9 @@ feedback_analyzer/
     chains.py                 # LangChain prompt templates and response chains
     routes.py                 # Feedback routing logic
     analyzer.py               # FeedbackAnalyzer class for processing feedback
-    api/
-        __init__.py
-        main.py               # FastAPI application
+api/
+    __init__.py
+    main.py                   # FastAPI application
 streamlit_app/
     app.py                    # Streamlit app
 .env.example                  # Example environment variable file
